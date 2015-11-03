@@ -16,7 +16,7 @@ var Stack = function() {
    * @returns {Number|undefined}
    */
   var pop = function() {
-    return data.unshift();
+    return data.shift();
   };
 
   /**
