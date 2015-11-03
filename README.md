@@ -7,8 +7,16 @@ Extend JS by additional data types:
 
 ### Getting started
 
+If you need all these data types:
+
 ```javascript
 var DataTypes = require('datatypes');
+```
+
+Or you can include only certain data type:
+
+```javascript
+var Stack = require('stack');
 ```
 
 ### Stack
