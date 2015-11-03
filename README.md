@@ -2,8 +2,8 @@
 
 Extend JS by additional data types:
 
-* Stack
-* Queue
+* [Stack](#stack)
+* [Queue](#queue)
 
 ### Getting started
 
