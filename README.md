@@ -11,7 +11,7 @@ Extend JS by additional data types:
 var DataTypes = require('datatypes');
 ```
 
-#### Stack
+### Stack
 
 ```javascript
 var stack = new DataTypes.Stack();
@@ -42,7 +42,7 @@ peek() // Gets the head element of stack.
 size() // Returns the size of stack.
 ```
 
-#### Queue
+### Queue
 
 ```javascript
 var queue = new DataTypes.Queue();
