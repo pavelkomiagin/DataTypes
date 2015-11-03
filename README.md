@@ -1,4 +1,4 @@
-# DataType
+# DataTypes
 
 Extend JS by additional data types:
 
