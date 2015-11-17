@@ -16,7 +16,7 @@ var Queue = function() {
    * @returns {Number|undefined}
    */
   var dequeue = function() {
-    return data.unshift();
+    return data.shift();
   };
 
   /**
@@ -24,7 +24,7 @@ var Queue = function() {
    * @returns {Number}
    */
   var size = function() {
-    return data.size;
+    return data.length;
   };
 
   return {

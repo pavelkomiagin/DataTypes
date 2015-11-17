@@ -32,7 +32,7 @@ var Stack = function() {
    * @returns {Number}
    */
   var size = function() {
-    return data.size;
+    return data.length;
   };
 
   return {

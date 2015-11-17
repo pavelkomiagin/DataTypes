@@ -1,7 +1,7 @@
 'use strict';
 
-var Stack = require('stack');
-var Queue = require('queue');
+var Stack = require('./stack');
+var Queue = require('./queue');
 
 var DataTypes = function() {
   return {
