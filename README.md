@@ -19,6 +19,19 @@ Or you can include only certain data type:
 var Stack = require('stack');
 ```
 
+##### Run tests
+
+```bash
+cd tests
+mocha *.js
+```
+
+##### Make bundle using browserify
+
+```bash
+browserify src/datatypes.js -o dist/bundle.js
+```
+
 ### Stack
 
 ```javascript
