@@ -1,4 +1,5 @@
 var Stack = require('../src/stack');
+var assert = require('assert');
 
 describe('Stack', function() {
   it('push method increase size by 1', function() {

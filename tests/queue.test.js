@@ -1,4 +1,5 @@
 var Queue = require('../src/queue');
+var assert = require('assert');
 
 describe('Queue', function() {
   it('enqueue method increase size by 1', function() {
@@ -6,7 +7,7 @@ describe('Queue', function() {
 
     queue.enqueue('hello');
     assert.equal(queue.size(), 1);
-    stack.enqueue('world');
+    queue.enqueue('world');
     assert.equal(queue.size(), 2);
   });
   
@@ -26,8 +27,8 @@ describe('Queue', function() {
     queue.enqueue('hello');
     queue.enqueue('this');
     queue.enqueue('world');
-    assert.equal(queue.dequeue(), 'world');
-    assert.equal(queue.dequeue(), 'this');
     assert.equal(queue.dequeue(), 'hello');
+    assert.equal(queue.dequeue(), 'this');
+    assert.equal(queue.dequeue(), 'world');
   });
 });
