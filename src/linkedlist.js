@@ -43,6 +43,14 @@ var LinkedList = function() {
   };
 
   /**
+   * Return the element by index
+   * @returns {Object}
+   */
+  var get = function(index) {
+    return data[index];
+  };
+
+  /**
    * Return the size of stack
    * @returns {Number}
    */
@@ -54,6 +62,7 @@ var LinkedList = function() {
     header: header,
     add: add,
     addLast: addLast,
+    get: get,
     size: size
   };
 };
