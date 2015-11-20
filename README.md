@@ -22,7 +22,7 @@ var Stack = require('stack');
 ##### Run tests
 
 ```bash
-cd tests
+cd test
 mocha *.js
 ```
 
