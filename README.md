@@ -24,8 +24,7 @@ var Stack = require('stack');
 ##### Run tests
 
 ```bash
-cd test
-mocha *.js
+mocha test
 ```
 
 ##### Make bundle using browserify
