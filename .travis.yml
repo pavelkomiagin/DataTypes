@@ -4,4 +4,5 @@ node_js:
 before_script:
   - npm install --save gulp
   - npm install --save mocha
-script: gulp
+  - npm install --save gulp-mocha
+script: gulp test
