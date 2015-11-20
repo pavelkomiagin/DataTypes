@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/pavelkomiagin/DataTypes.svg)](https://travis-ci.org/pavelkomiagin/DataTypes)
+
 ## DataTypes
 
 Extend JS by additional data types:
