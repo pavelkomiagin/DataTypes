@@ -2,6 +2,6 @@ language: node_js
 node_js:
   - "stable"
 before_script:
-  - npm install -g gulp
-  - npm install -g mocha
+  - npm install gulp
+  - npm install mocha
 script: gulp
